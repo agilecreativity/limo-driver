@@ -1,5 +1,8 @@
 # limo-driver
 
+[![Clojars Project](https://img.shields.io/clojars/v/limo-driver/lein-template.svg)](https://clojars.org/limo-driver/lein-template)
+[![Dependencies Status](https://jarkeeper.com/agilecreativity/limo-driver/status.svg)](https://jarkeeper.com/agilecreativity/limo-driver)
+
 A Leiningen template for creating a simple [Limo][] project.
 
 Many of the generation codes are from the excellent [Chestnut][] template.
