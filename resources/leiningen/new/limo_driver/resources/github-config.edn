@@ -1,0 +1,4 @@
+;; Simple EDN config for login to Github
+{:username "your-github-id"
+ :password "your-github-password"
+ :url      "https://github.com/login"}
