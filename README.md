@@ -12,33 +12,19 @@ Many of the generation codes are from the excellent [Chestnut][] template.
 For more information about how the Limo api works, please see [Limo][] page.
 
 ```sh
-# Clone this repository
-git clone https://github.com/agilecreativity/limo-driver.git
-
-# The simple project with basic example
-cd limo-driver && lein install
-
-# You are now ready to create a Limo project using the template
-lein new limo <your-project-name>
+# Create simple Limo project using the template
+lein new limodriver <your-project-name>
 
 # To include the sample codes that loads config from property files
 lein new limo-driver <your-project-name> +example
 
-cd <your-project-name>
-```
-
-### Sample Usage
-
-- See the generated code `src/<your-project-name>/core.clj`
-
-- More complex example will be in the `src/<your-project-name>/example/quick-login.clj` if `+example` is used.
-
-```sh
-# Create the project with some example
-lein new limo-driver <your-project-name> +example
-
 # e.g. if your project name is awesome-limo then
 lein new limo-driver awesome-limo +example
+
+cd awesome-limo
+
+# Quickly run the sample project using
+lein run
 ```
 
 ## License
